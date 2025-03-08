@@ -6,7 +6,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const updateTime = () => {
-      const options = {
+      const options: Intl.DateTimeFormatOptions = {
         timeZone: "Asia/Bangkok",
         hour: "2-digit",
         minute: "2-digit",
