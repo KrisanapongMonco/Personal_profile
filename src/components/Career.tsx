@@ -1,6 +1,6 @@
 const Career = () => {
   return (
-    <section className="career">
+    <section id="career" className="career">
       <div className="career__jobs">
         <h3>Work Experience</h3>
         <div className="job">

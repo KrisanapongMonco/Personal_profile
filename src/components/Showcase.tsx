@@ -1,6 +1,6 @@
 const Showcase = () => {
   return (
-    <section className="showcase">
+    <section id="showcase" className="showcase">
       <div className="showcase__header">
         <h3>I Can Help You With:</h3>
         <button className="btn">See My Work</button>
