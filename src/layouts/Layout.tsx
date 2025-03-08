@@ -1,11 +1,18 @@
+import Career from "../components/Career";
 import Footer from "../components/Footer";
-import Sidebar from "../components/Sidebar";
+import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
+import Showcase from "../components/Showcase";
+import Skills from "../components/Skills";
 
-const Layout: React.FC = () => {
+const Layout = () => {
   return (
-    <div className="flex">
-      <Sidebar />
-      <div className="flex-grow">{/* Main content goes here */}</div>
+    <div>
+      <Navbar />
+      <Hero />
+      <Skills />
+      <Showcase />
+      <Career />
       <Footer />
     </div>
   );
