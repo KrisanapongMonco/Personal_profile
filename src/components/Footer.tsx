@@ -2,14 +2,13 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__brand">
-        <a href="#">Logo.</a>
-        <p>© NOW() Monco.</p>
+        <p>© 2024 Krisanapong Jaruenjanporn</p>
       </div>
       <div className="footer__links">
-        <a href="#">Home</a>
-        <a href="#">Projects</a>
-        <a href="#">Skills</a>
-        <a href="#">About</a>
+        <a href="mailto:krisanapongdt@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/krisanapong-jaruenjanporn/">
+          LinkedIn
+        </a>
       </div>
     </footer>
   );

@@ -9,7 +9,14 @@ const Skills = () => {
         </p>
         <div className="skills__actions">
           <button className="btn">Work With Me</button>
-          <button className="btn btn--secondary">Send Email</button>
+          <button className="btn btn--secondary">
+            <a
+              href="mailto:krisanapongdt@gmail.com"
+              className="text-white no-underline"
+            >
+              Send Email
+            </a>
+          </button>
         </div>
       </div>
       <div className="skills__stats">
